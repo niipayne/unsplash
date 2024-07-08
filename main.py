@@ -40,7 +40,6 @@ def set_wallpaper(data):
     
     download(photo_url, download_path, image_title)
     
-    # filename = random.choice(os.listdir("D:\\School files\\coding-projects\\unsplash\\images"))
     filename = random.choice(os.listdir(os.getcwd() + "\\images"))
     
     path = os.getcwd() + f"\\images\\{filename}" 
